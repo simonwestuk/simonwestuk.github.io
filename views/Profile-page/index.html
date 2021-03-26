@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+        <title>Simon West - Portfolio</title>
+
+        <link rel="stylesheet" type="text/css" href="../../static/theme/raw/static/export/style/style.css">
+
+        <link rel="stylesheet" type="text/css" href="../../static/theme/raw/static/export/style/print.css">
+
+        <link rel="stylesheet" type="text/css" href="../../static/theme/raw/static/style/tinymce.css">
+
+        <link rel="stylesheet" type="text/css" href="../../static/theme/raw/static/style/style.css">
+
+        <link rel="stylesheet" type="text/css" href="../../static/theme/raw/static/style/cookieconsent.css">
+
+        <link rel="stylesheet" type="text/css" href="../../static/theme/local/static/style/style-dist.css">
+
+
+        <script type='text/javascript' src='../../static/theme/raw/static/js/jquery.js'></script>
+
+        <script type='text/javascript' src='../../static/theme/raw/static/js/bootstrap.min.js'></script>
+
+        <script type='text/javascript' src='../../static/theme/raw/static/js/dock.js'></script>
+
+        <script type='text/javascript' src='../../static/theme/raw/static/js/modal.js'></script>
+
+        <script type='text/javascript' src='../../static/theme/raw/static/js/lodash.js'></script>
+
+        <script type='text/javascript' src='../../static/theme/raw/static/js/gridstack.js'></script>
+
+        <script type='text/javascript' src='../../static/theme/raw/static/js/gridlayout.js'></script>
+
+    </head>
+    <body>
+        <header class="header fixed-top no-site-messages">
+            <div class="navbar navbar-default navbar-main">
+                <div class="container">
+                    <div id="logo-area" class="logo-area">
+                        <a class="logo change-to-small" href="https://mahara.org/">
+                            <img src="../../static/theme/raw/static/images/site-logo.png" alt="Mahara">
+                        </a>
+                        <a href="https://mahara.org/" class="logoxs change-to-small-default">
+                            <img src="" alt="Mahara">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="pageheader">
+            <div class="container pageheader-content">
+                <div class="row">
+                    <div class="col-md-12 main">
+                        <div class="main-column">
+                            <div id="pageheader-column-container">
+                                <h1 id="viewh1" class="page-header">
+                                    <span class="section-heading">Profile page</span>
+                                </h1>
+                                <div class="text-small">
+                                
+                                    <div id="breadcrumbs" class="breadcrumbs">
+                                    <ul>
+                                        <li>You are here: <a href="../../index.html">Home</a></li>
+                                        
+                                            <li>&raquo; Pages</li>
+                                        
+                                            <li>&raquo; <a href="index.html">Profile page</a></li>
+                                        
+                                    </ul>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container main-content">
+            <div class="row">
+                <main id="main" class="col-md-12 main">
+                    <div id="content" class="main-column">
+                        <div id="main-column-container">
+
+
+
+<script>
+$(function () {
+    var options = {
+        verticalMargin: 10,
+        float: true,
+        ddPlugin: false,
+    };
+    var grid = $('.grid-stack');
+    grid.gridstack(options);
+    grid = $('.grid-stack').data('gridstack');
+
+    // should add the blocks one by one
+    var blocks = [{"content":"<div class=\"bt-profileinfo gridstackblock card card-secondary card-regular clearfix \" id=\"blockinstance_15\">\n    \n    \n        <h3 class=\"title card-header js-heading\">\n            \n\n            <span class=\"collapse-inline\">\n                About me\n                \n            <\/span>\n\n            \n\n        <\/h3>\n    \n\n    <div class=\"block\"  id=\"blockinstance_15_target\" data-blocktype-noajax=\"15\">\n        \n            \n    \n    <div class=\"card-body flush\">\n    \n    \n    \n    \n        <ul class=\"unstyled profile-info\">\n        \n            <li><strong>First name:<\/strong> Simon<\/li>\n        \n            <li><strong>Last name:<\/strong> West<\/li>\n        \n        <\/ul>\n    \n    \n    \n    \n    <\/div>\n    \n\n\n        \n    <\/div>\n<\/div>\n","width":"6","height":"3","positionx":"0","positiony":"0","row":"1","column":null,"order":null,"id":"15"},{"content":"<div class=\"bt-myfriends gridstackblock card card-secondary  clearfix \" id=\"blockinstance_18\">\n    \n    \n        <h3 class=\"title card-header js-heading\">\n            \n\n            <span class=\"collapse-inline\">\n                My friends\n                \n            <\/span>\n\n            \n\n        <\/h3>\n    \n\n    <div class=\"block\"  id=\"blockinstance_18_target\" data-blocktype-noajax=\"18\">\n        \n            <div class=\"friends card-body\">\n\n    <div id=\"userfriendstable\">\n       <div class=\"js-masonry user-thumbnails\">\n\n    \n        <a href=\"https:\/\/portfolio.hecomputing.co.uk\/user\/view.php?id=63\" class=\"item user-icon metadata user-icon-100 d0\">\n            <img src=\"https:\/\/portfolio.hecomputing.co.uk\/thumb.php?type=profileiconbyid&maxwidth=100&maxheight=100&id=1397\" alt=\"NGUYEN BUI's profile picture\" with=\"100\" height=\"100\">\n            <p class=\"member-name\">NGUYEN BUI<\/p>\n        <\/a>\n    \n\n<\/div>\n\n    <\/div>\n    <div id=\"myfriends_page_container\" class=\"d-none \">\n        \n    <\/div>\n    <script>\n    jQuery(function($) {\n        \n        $('#myfriends_page_container').removeClass('d-none');\n        $(window).on('pageupdated', { }, function() {\n            $('.js-masonry.user-thumbnails').masonry({ itemSelector: '.user-icon' });\n        });\n    });\n    <\/script>\n\n<\/div>\n\n        \n    <\/div>\n<\/div>\n","width":"6","height":"3","positionx":"6","positiony":"0","row":"1","column":null,"order":null,"id":"18"},{"content":"<div class=\"bt-myviews gridstackblock card card-secondary  clearfix \" id=\"blockinstance_16\">\n    \n    \n        <h3 class=\"title card-header js-heading\">\n            \n\n            <span class=\"collapse-inline\">\n                My portfolios\n                \n            <\/span>\n\n            \n\n        <\/h3>\n    \n\n    <div class=\"block\"  id=\"blockinstance_16_target\" data-blocktype-noajax=\"16\">\n        \n            \n    <div class=\"list-group\">\n        <div id=\"myviewlist\">\n            \n\n        <\/div>\n    \n    \n    <\/div>\n\n\n        \n    <\/div>\n<\/div>\n","width":"6","height":"3","positionx":"0","positiony":"3","row":"1","column":null,"order":null,"id":"16"},{"content":"<div class=\"bt-mygroups gridstackblock card card-secondary  clearfix \" id=\"blockinstance_17\">\n    \n    \n        <h3 class=\"title card-header js-heading\">\n            \n\n            <span class=\"collapse-inline\">\n                My groups\n                \n            <\/span>\n\n            \n\n        <\/h3>\n    \n\n    <div class=\"block\"  id=\"blockinstance_17_target\" data-blocktype-noajax=\"17\">\n        \n            \n    <div class=\"card-body\">\n        <p class=\"no-results-small\">Not in any groups<\/p>\n    <\/div>\n\n\n        \n    <\/div>\n<\/div>\n","width":"6","height":"3","positionx":"6","positiony":"3","row":"1","column":null,"order":null,"id":"17"}];
+    loadGrid(grid, blocks);
+    jQuery(document).trigger('blocksloaded');
+});
+</script>
+
+
+
+
+<p id="view-description">Your profile page is what others see when they click on your name or profile picture.</p>
+
+
+
+    <div class="container-fluid">
+      <div class="grid-stack">
+      </div>
+    </div>
+
+
+
+
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>Export generated for Simon West on 26 March 2021, 14:28, from their portfolio at <a href="https://portfolio.hecomputing.co.uk/">HE Computing and Digital Technologies Portfolio</a></p>
+        </footer>
+    </body>
+</html>
+
